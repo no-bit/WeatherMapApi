@@ -19,28 +19,21 @@ Search & Navigation: Allows searching for cities and centering the map on select
 </ul>
 <h2>Setup & Installation</h2>   
 Clone the repository:
-sh
-Copy
-Edit
 git clone https://github.com/yourusername/your-repo.git
 cd your-repo
-Install dependencies:
-sh
-Copy
-Edit
-pip install -r requirements.txt
-Run the API server:
-sh
-Copy
-Edit
-uvicorn main:app --reload  # If using FastAPI  
-python app.py  # If using Flask  
-Open the frontend:
-bash
-Copy
-Edit
+<h3>Install dependencies and run the api server:</h3>
+<ol>
+  <li>pip install -r requirements.txt</li>
+  <li>uvicorn main:app --reload</li>
+</ol>
+<h2>Open the frontend:</h2>
 http://localhost:8000/static/index.html
-Future Improvements
-Enhance UI/UX based on Figma design
-Optimize city clustering for better performance
-Deploy API for public use
+<h2>Future Improvements that could be done</h2>
+<ol>
+  <li>Enhance UI/UX based on Figma design</li>
+  <li>Optimize city clustering for better performance</li>
+  <li>Deploy API for public use</li>
+</ol>
+
+
+
