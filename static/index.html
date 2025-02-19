@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Map of Cities</title>
+    
+    <!-- MapLibre CSS -->
+    <link href="https://unpkg.com/maplibre-gl@5.1.0/dist/maplibre-gl.css" rel="stylesheet">
+
+    <!-- Your custom styles -->
+    <link rel="stylesheet" href="/static/css/style.css">
+    <link rel="icon" href="/static/favicon.ico" type="image/x-icon">
+</head>
+<body>
+
+    <!-- Map Container -->
+    <div id="map"></div>
+
+    <!-- City Info Display --> 
+    <div id="city-info">
+        <button id="close-info" style="position: absolute; top: 10px; right: 10px; background: transparent; border: none; font-size: 20px; color: #ff5733; cursor: pointer;">&times;</button>
+        <h2 id="city-name">Click a city</h2>
+        <p id="city-coordinates"></p>
+        <div id="weather-info"></div> <!-- Weather Info here -->
+    </div>
+    
+    <!-- Search Bar -->
+    <input type="text" id="city-search" placeholder="Search for a city...">
+
+    <!-- City List -->
+    <div id="city-list">
+        <!-- Cities will be added here dynamically -->
+    </div>
+
+    <!-- MapLibre JS -->
+    <script src="https://unpkg.com/maplibre-gl@5.1.0/dist/maplibre-gl.js"></script>
+
+    <!-- Your custom JavaScript file -->
+    <script src="/static/js/map.js"></script>
+
+</body>
+</html>

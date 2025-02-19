@@ -1,0 +1,6 @@
+fastapi
+uvicorn
+requests
+sqlite3
+maplibre-gl
+pydantic
