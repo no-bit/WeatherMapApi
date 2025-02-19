@@ -1,5 +1,5 @@
 # WeatherMapApi
-This project is a Web API that provides city locations and real-time weather data. It serves as the backend for an interactive map that displays cities and their weather conditions.
+<p style = "font-family: Arial, sans-serif;">This project is a Web API that provides city locations and real-time weather data. It serves as the backend for an interactive map that displays cities and their weather conditions.</p>
 Features
 City Listings: Fetches a list of cities from an SQLite database (cities.db).
 Weather Data: Retrieves real-time weather information using the OpenWeather API.
