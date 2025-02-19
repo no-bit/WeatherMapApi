@@ -34,6 +34,9 @@ http://localhost:8000/static/index.html
   <li>Optimize city clustering for better performance</li>
   <li>Deploy API for public use</li>
 </ol>
+<h2>Notes:</h2>
+Don't forget to get your api key from openweather api and maptiler. And update your api
+key with your api key in main.py and map.js.
 
 
 
