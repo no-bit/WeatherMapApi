@@ -1,19 +1,23 @@
 # WeatherMapApi
-<h1 style = "font-family: Arial, sans-serif;">This project is a Web API that provides city locations and real-time weather data. It serves as the backend for an interactive map that displays cities and their weather conditions.</h1>
-Features
+<p style = "font-family: Arial, sans-serif;">This project is a Web API that provides city locations and real-time weather data. It serves as the backend for an interactive map that displays cities and their weather conditions.</p>
+<h2 style = "font-family: Arial, sans-serif;">Features</h2>
 City Listings: Fetches a list of cities from an SQLite database (cities.db).
 Weather Data: Retrieves real-time weather information using the OpenWeather API.
 Interactive Map: Displays cities on a map with clustering and weather popups.
 Search & Navigation: Allows searching for cities and centering the map on selected locations.
-API Endpoints
-GET /cities – Returns a list of cities with their names, latitudes, and longitudes.
-GET /weather/<lat>/<lon> – Fetches weather data (temperature, humidity, condition) for a given latitude and longitude.
-Technologies Used
-Backend: FastAPI (or Flask, depending on deployment)
-Database: SQLite (cities.db)
-Frontend: JavaScript, MapLibre
-External API: OpenWeather API
-Setup & Installation
+<h2 style = "font-family: Arial, sans-serif;">API Endpoints</h2>
+<ul>
+  <li>GET /cities – Returns a list of cities with their names, latitudes, and longitudes.</li>
+  <li>GET /weather/<lat>/<lon> – Fetches weather data (temperature, humidity, condition) for a given latitude and longitude.</li>
+</ul>
+<h2>Technologies Used</h2>
+<ul>
+  <li>Backend: FastAPI (or Flask, depending on deployment)</li>
+  <li>Database: SQLite (cities.db)</li>
+  <li>Frontend: JavaScript, MapLibre</li>
+  <li>External API: OpenWeather API</li>
+</ul>
+<h2>Setup & Installation</h2>   
 Clone the repository:
 sh
 Copy
